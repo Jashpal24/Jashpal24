@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f33"/>
+      <stop offset="1" stop-color="#123a4f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#2fb3a3" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2fb3a3" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+  <g transform="translate(1040 160)" fill="none" stroke="#5fd4c4" stroke-linecap="round">
+    <path d="M40 -46 A62 62 0 0 1 40 46" stroke-width="3" stroke-opacity="0.9" transform="rotate(180)"/>
+    <path d="M40 -46 A62 62 0 0 1 40 46" stroke-width="3" stroke-opacity="0.9"/>
+    <path d="M66 -80 A104 104 0 0 1 66 80" stroke-width="3" stroke-opacity="0.55" transform="rotate(180)"/>
+    <path d="M66 -80 A104 104 0 0 1 66 80" stroke-width="3" stroke-opacity="0.55"/>
+    <path d="M92 -112 A146 146 0 0 1 92 112" stroke-width="3" stroke-opacity="0.25" transform="rotate(180)"/>
+    <path d="M92 -112 A146 146 0 0 1 92 112" stroke-width="3" stroke-opacity="0.25"/>
+  </g>
+  <g transform="translate(1040 160)">
+    <rect x="-22" y="-40" width="44" height="80" rx="8" fill="#0b1f33" stroke="#e8f4f2" stroke-width="3"/>
+    <rect x="-15" y="-30" width="30" height="50" rx="2" fill="#2fb3a3" fill-opacity="0.35"/>
+    <circle cx="0" cy="30" r="3.5" fill="#e8f4f2"/>
+  </g>
+  <g fill="none" stroke="#5fd4c4" stroke-opacity="0.35" stroke-width="2">
+    <path d="M760 70 H860 L890 100 H900"/>
+    <path d="M740 250 H850 L880 220 H900"/>
+    <path d="M790 160 H880"/>
+  </g>
+  <g fill="#5fd4c4" fill-opacity="0.6">
+    <circle cx="760" cy="70" r="4"/>
+    <circle cx="740" cy="250" r="4"/>
+    <circle cx="790" cy="160" r="4"/>
+  </g>
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+    <rect x="72" y="92" width="6" height="128" fill="#2fb3a3"/>
+    <text x="102" y="146" font-size="56" font-weight="700" fill="#ffffff">Jashpal Jadav</text>
+    <text x="104" y="186" font-size="24" fill="#cfe7e3">Technical product and delivery lead</text>
+    <text x="104" y="220" font-size="18" fill="#8fb9b3" letter-spacing="0.5">Telecom devices, Android Enterprise, eSIM, operator delivery. 19 years.</text>
+  </g>
+</svg>
