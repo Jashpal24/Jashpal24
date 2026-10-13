@@ -1,3 +1,5 @@
+<img src="banner.svg" alt="Jashpal Jadav, technical product and delivery lead" width="100%">
+
 # Jashpal Jadav
 
 I spent 19 years at Santok Group, a UK telecom and mobile device company, starting as a part-time test engineer and finishing as Technical Head (2016 to April 2026). Most of my work sat between mobile operators, factories in China and software teams. I wrote the requirements, tested the firmware, read the logs when something broke, and got devices through operator validation.
